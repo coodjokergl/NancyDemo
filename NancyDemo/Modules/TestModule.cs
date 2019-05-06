@@ -14,5 +14,12 @@ namespace NancyDemo.Modules
         {
             Get("/h" , q => @"Hellow word!");
         }
+
+        public void Test()
+        {
+
+        }
     }
+
+
 }
