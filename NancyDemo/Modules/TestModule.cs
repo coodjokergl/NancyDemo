@@ -12,14 +12,20 @@ namespace NancyDemo.Modules
     {
         public TestModule()
         {
-            Get("/h" , q => @"Hellow word!");
+            Get("/h", q => @"Hellow word!");
         }
 
-        public void Test()
-        {
 
+        
+        public bool Test()
+        {
+            int i = 10;
+            return false;
+        }
+
+        public bool Test()
+        {
+            return false;
         }
     }
-
-
 }
